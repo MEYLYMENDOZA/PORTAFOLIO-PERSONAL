@@ -1,0 +1,121 @@
+html, body {
+  height: 100%;               
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #486784;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.fotoperfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #fff;
+}
+
+header h1 {
+  margin: 10px 0 5px; 
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+main {
+  flex: 1;                   
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #486784;
+  border-bottom: 2px solid #486784;
+  padding-bottom: 5px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.chip {
+  background: #e0e7ef;
+  color: #333;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.chip:hover {
+  background: #486784;
+  color: white;
+}
+
+button {
+  background: #486784;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #365167;
+}
+
+footer {
+  background: #486784;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer .perfil-footer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+footer .perfil-footer h2 {
+  margin: 0;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-align: center;
+}
